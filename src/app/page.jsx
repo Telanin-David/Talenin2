@@ -80,7 +80,7 @@ const { ref: section7Ref, inView: section7InView } = useInView({ threshold: 0.1 
              Customized technology solutions designed to drive efficiency, innovation, and long-term success. 
            </p> 
 
-           <div className="flex lg:justify-between sm:justify-between xs:justify-between items-center pt-5  lg:w-8/12 sm:w-9/12 xs:w-9/12 lg:mx-0 sm:mx-auto xs:mx-auto">
+           <div className="flex lg:justify-between sm:justify-between xs:justify-between items-center pt-5  lg:w-8/12 xs:w-10/12 lg:mx-0 sm:mx-auto xs:mx-auto">
               
               <Link href="/contact">
                 <motion.button 
@@ -292,7 +292,7 @@ const { ref: section7Ref, inView: section7InView } = useInView({ threshold: 0.1 
                          boxShadow:  'none', // Glow when active, no glow when inactive
                        }}
                        transition={{ duration: 0.3 }}
-                       className="bg-brand-blue-500 flex justify-center rounded-3xl h-fit lg:py-3 sm:py-2 xs:py-2 lg:px-8 sm:px-6 xs:px-6 w-4/12 lg:mx-0 sm:mx-auto xs:mx-auto "
+                       className="bg-brand-blue-500 flex justify-center rounded-3xl h-fit lg:py-3 sm:py-2 xs:py-2 lg:px-8 sm:px-6 xs:px-6 md:w-4/12 xs:w-6/12 lg:mx-0 sm:mx-auto xs:mx-auto "
                        >
                         
                           <p className=" font-medium md:text-base xs:text-xs text-white  text-center items-center ">
