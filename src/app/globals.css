@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F9F9FB;
+  --foreground: #171717;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter.woff2') format('woff2'),
+       url('/fonts/Inter.woff') format('woff');
+  font-weight: 400; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+
+/* Extra bold weight (800) */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
